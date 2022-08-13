@@ -1,1 +1,25 @@
-# ch2022
+# Python 
+
+Argentine Cultural Choices DB 2022
+
+## Installation
+
+In progress
+
+```bash
+tbd
+```
+
+## Usage
+
+```python
+tbd
+```
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
