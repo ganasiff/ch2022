@@ -1,59 +1,36 @@
 DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): datos.gob.ar:443
-DEBUG:urllib3.connectionpool:https://datos.gob.ar:443 "GET /dataset/cultura-mapa-cultural-espacios-culturales/archivo/cultura_392ce1a8-ef11-4776-b280-6f1c7fae16ae HTTP/1.1" 200 10523
+DEBUG:urllib3.connectionpool:https://datos.gob.ar:443 "GET /dataset/cultura-mapa-cultural-espacios-culturales/archivo/cultura_392ce1a8-ef11-4776-b280-6f1c7fae16ae HTTP/1.1" 200 10517
 DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): datos.cultura.gob.ar:443
 DEBUG:urllib3.connectionpool:https://datos.cultura.gob.ar:443 "GET /dataset/37305de4-3cce-4d4b-9d9a-fec3ca61d09f/resource/392ce1a8-ef11-4776-b280-6f1c7fae16ae/download/cine.csv HTTP/1.1" 200 96427
 INFO:root:Request processed
-WARNING:root:Folder on ./Cinemas/2022-agosto, not found. Created at 2022-08-15 05:52:59.640922
-INFO:root:File on ./Cinemas/2022-agosto/cines-15-08-2022.csv Saved at 2022-08-15 05:52:59.640922
+INFO:root:File on ./Cinemas/2022-agosto/cines-15-08-2022.csv Saved at 2022-08-15 17:42:32.976629
 DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): datos.gob.ar:443
-DEBUG:urllib3.connectionpool:https://datos.gob.ar:443 "GET /dataset/cultura-mapa-cultural-espacios-culturales/archivo/cultura_4207def0-2ff7-41d5-9095-d42ae8207a5d HTTP/1.1" 200 10438
+DEBUG:urllib3.connectionpool:https://datos.gob.ar:443 "GET /dataset/cultura-mapa-cultural-espacios-culturales/archivo/cultura_4207def0-2ff7-41d5-9095-d42ae8207a5d HTTP/1.1" 200 10428
 DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): datos.cultura.gob.ar:443
 DEBUG:urllib3.connectionpool:https://datos.cultura.gob.ar:443 "GET /dataset/37305de4-3cce-4d4b-9d9a-fec3ca61d09f/resource/4207def0-2ff7-41d5-9095-d42ae8207a5d/download/museos_datosabiertos.csv HTTP/1.1" 200 304431
 INFO:root:Request processed
-INFO:root:File on ./Museums/2022-agosto/museos-15-08-2022.csv Saved at 2022-08-15 05:53:02.134013
+INFO:root:File on ./Museums/2022-agosto/museos-15-08-2022.csv Saved at 2022-08-15 17:42:38.126489
 DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): datos.gob.ar:443
-DEBUG:urllib3.connectionpool:https://datos.gob.ar:443 "GET /dataset/cultura-mapa-cultural-espacios-culturales/archivo/cultura_01c6c048-dbeb-44e0-8efa-6944f73715d7 HTTP/1.1" 200 10555
+DEBUG:urllib3.connectionpool:https://datos.gob.ar:443 "GET /dataset/cultura-mapa-cultural-espacios-culturales/archivo/cultura_01c6c048-dbeb-44e0-8efa-6944f73715d7 HTTP/1.1" 200 10543
 DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): datos.cultura.gob.ar:443
 DEBUG:urllib3.connectionpool:https://datos.cultura.gob.ar:443 "GET /dataset/37305de4-3cce-4d4b-9d9a-fec3ca61d09f/resource/01c6c048-dbeb-44e0-8efa-6944f73715d7/download/biblioteca_popular.csv HTTP/1.1" 200 None
 INFO:root:Request processed
-INFO:root:File on ./Libraries/2022-agosto/bibliotecas-15-08-2022.csv Saved at 2022-08-15 05:53:04.938491
+INFO:root:File on ./Libraries/2022-agosto/bibliotecas-15-08-2022.csv Saved at 2022-08-15 17:42:43.417103
 DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): datos.gob.ar:443
-DEBUG:urllib3.connectionpool:https://datos.gob.ar:443 "GET /dataset/cultura-mapa-cultural-espacios-culturales/archivo/cultura_392ce1a8-ef11-4776-b280-6f1c7fae16ae HTTP/1.1" 200 10527
+DEBUG:urllib3.connectionpool:https://datos.gob.ar:443 "GET /dataset/cultura-mapa-cultural-espacios-culturales/archivo/cultura_392ce1a8-ef11-4776-b280-6f1c7fae16ae HTTP/1.1" 200 10514
 DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): datos.cultura.gob.ar:443
 DEBUG:urllib3.connectionpool:https://datos.cultura.gob.ar:443 "GET /dataset/37305de4-3cce-4d4b-9d9a-fec3ca61d09f/resource/392ce1a8-ef11-4776-b280-6f1c7fae16ae/download/cine.csv HTTP/1.1" 200 96427
 INFO:root:Request processed
-WARNING:root:Folder on ./Cinemas/2022-agosto, not found. Created at 2022-08-15 05:55:33.305339
-INFO:root:File on ./Cinemas/2022-agosto/cines-15-08-2022.csv Saved at 2022-08-15 05:55:33.305339
+INFO:root:File on ./Cinemas/2022-agosto/cines-15-08-2022.csv Saved at 2022-08-15 19:03:52.842274
 DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): datos.gob.ar:443
-DEBUG:urllib3.connectionpool:https://datos.gob.ar:443 "GET /dataset/cultura-mapa-cultural-espacios-culturales/archivo/cultura_4207def0-2ff7-41d5-9095-d42ae8207a5d HTTP/1.1" 200 10402
+DEBUG:urllib3.connectionpool:https://datos.gob.ar:443 "GET /dataset/cultura-mapa-cultural-espacios-culturales/archivo/cultura_4207def0-2ff7-41d5-9095-d42ae8207a5d HTTP/1.1" 200 10430
 DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): datos.cultura.gob.ar:443
-DEBUG:urllib3.connectionpool:https://datos.cultura.gob.ar:443 "GET /dataset/37305de4-3cce-4d4b-9d9a-fec3ca61d09f/resource/4207def0-2ff7-41d5-9095-d42ae8207a5d/download/museos_datosabiertos.csv HTTP/1.1" 200 304431
+DEBUG:urllib3.connectionpool:https://datos.cultura.gob.ar:443 "GET /dataset/37305de4-3cce-4d4b-9d9a-fec3ca61d09f/resource/4207def0-2ff7-41d5-9095-d42ae8207a5d/download/museos_datosabiertos.csv HTTP/1.1" 200 None
 INFO:root:Request processed
-INFO:root:File on ./Museums/2022-agosto/museos-15-08-2022.csv Saved at 2022-08-15 05:55:36.252036
+INFO:root:File on ./Museums/2022-agosto/museos-15-08-2022.csv Saved at 2022-08-15 19:03:57.866949
 DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): datos.gob.ar:443
-DEBUG:urllib3.connectionpool:https://datos.gob.ar:443 "GET /dataset/cultura-mapa-cultural-espacios-culturales/archivo/cultura_01c6c048-dbeb-44e0-8efa-6944f73715d7 HTTP/1.1" 200 10542
+DEBUG:urllib3.connectionpool:https://datos.gob.ar:443 "GET /dataset/cultura-mapa-cultural-espacios-culturales/archivo/cultura_01c6c048-dbeb-44e0-8efa-6944f73715d7 HTTP/1.1" 200 10532
 DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): datos.cultura.gob.ar:443
-DEBUG:urllib3.connectionpool:https://datos.cultura.gob.ar:443 "GET /dataset/37305de4-3cce-4d4b-9d9a-fec3ca61d09f/resource/01c6c048-dbeb-44e0-8efa-6944f73715d7/download/biblioteca_popular.csv HTTP/1.1" 200 511527
+DEBUG:urllib3.connectionpool:https://datos.cultura.gob.ar:443 "GET /dataset/37305de4-3cce-4d4b-9d9a-fec3ca61d09f/resource/01c6c048-dbeb-44e0-8efa-6944f73715d7/download/biblioteca_popular.csv HTTP/1.1" 200 None
 INFO:root:Request processed
-INFO:root:File on ./Libraries/2022-agosto/bibliotecas-15-08-2022.csv Saved at 2022-08-15 05:55:38.845060
-DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): datos.gob.ar:443
-DEBUG:urllib3.connectionpool:https://datos.gob.ar:443 "GET /dataset/cultura-mapa-cultural-espacios-culturales/archivo/cultura_392ce1a8-ef11-4776-b280-6f1c7fae16ae HTTP/1.1" 200 10520
-DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): datos.cultura.gob.ar:443
-DEBUG:urllib3.connectionpool:https://datos.cultura.gob.ar:443 "GET /dataset/37305de4-3cce-4d4b-9d9a-fec3ca61d09f/resource/392ce1a8-ef11-4776-b280-6f1c7fae16ae/download/cine.csv HTTP/1.1" 200 96427
-INFO:root:Request processed
-WARNING:root:Folder on ./Cinemas/2022-agosto, not found. Created at 2022-08-15 11:34:29.669740
-INFO:root:File on ./Cinemas/2022-agosto/cines-15-08-2022.csv Saved at 2022-08-15 11:34:29.669740
-DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): datos.gob.ar:443
-DEBUG:urllib3.connectionpool:https://datos.gob.ar:443 "GET /dataset/cultura-mapa-cultural-espacios-culturales/archivo/cultura_4207def0-2ff7-41d5-9095-d42ae8207a5d HTTP/1.1" 200 10404
-DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): datos.cultura.gob.ar:443
-DEBUG:urllib3.connectionpool:https://datos.cultura.gob.ar:443 "GET /dataset/37305de4-3cce-4d4b-9d9a-fec3ca61d09f/resource/4207def0-2ff7-41d5-9095-d42ae8207a5d/download/museos_datosabiertos.csv HTTP/1.1" 200 304431
-INFO:root:Request processed
-WARNING:root:Folder on ./Museums/2022-agosto, not found. Created at 2022-08-15 11:34:36.647903
-INFO:root:File on ./Museums/2022-agosto/museos-15-08-2022.csv Saved at 2022-08-15 11:34:36.647903
-DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): datos.gob.ar:443
-DEBUG:urllib3.connectionpool:https://datos.gob.ar:443 "GET /dataset/cultura-mapa-cultural-espacios-culturales/archivo/cultura_01c6c048-dbeb-44e0-8efa-6944f73715d7 HTTP/1.1" 200 10556
-DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): datos.cultura.gob.ar:443
-DEBUG:urllib3.connectionpool:https://datos.cultura.gob.ar:443 "GET /dataset/37305de4-3cce-4d4b-9d9a-fec3ca61d09f/resource/01c6c048-dbeb-44e0-8efa-6944f73715d7/download/biblioteca_popular.csv HTTP/1.1" 200 511527
-INFO:root:Request processed
-WARNING:root:Folder on ./Libraries/2022-agosto, not found. Created at 2022-08-15 11:34:41.265532
-INFO:root:File on ./Libraries/2022-agosto/bibliotecas-15-08-2022.csv Saved at 2022-08-15 11:34:41.265532
+INFO:root:File on ./Libraries/2022-agosto/bibliotecas-15-08-2022.csv Saved at 2022-08-15 19:04:01.848873

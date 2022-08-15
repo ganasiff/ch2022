@@ -3,6 +3,7 @@ from modules import log2file
 from decouple import config
 from modules.getdata import get_data_from_gob
 from modules.download_and_save import download_and_save
+from modules.db_orm_settings import Session, engine, Base
 
 M_URL = config('MUSEUMS_URL')
 C_URL = config('CINEMAS_URL')
