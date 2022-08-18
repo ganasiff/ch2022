@@ -1,12 +1,13 @@
-import email
-import mailbox
-from sqlalchemy import Column, String, Integer, Date
-from sqlalchemy_utils import EmailType, PhoneNumber
-from .db_orm_settings import Base
+from sqlalchemy import Column, String, Integer
+from sqlalchemy_utils import EmailType
+from db_orm_settings import Base
+from decouple import config
+
+TABLE_NAME = config('TABLE_NAME')
 
 
 class CulturalMap(Base):
-    __tablename__ = 'cultural_map'
+    __tablename__ = TABLE_NAME
 
     id = Column(Integer, primary_key=True)
     cod_localidad = Column(Integer)
@@ -22,8 +23,8 @@ class CulturalMap(Base):
     mail = Column(EmailType)
     web = Column(String)
 
-    def __init__(self, cod_localidad, id_provincia, id_departamento, categoria, provincia ,
-    localidad, nombre, domicilio, codigo_postal, numero_de_telefono, mail, web):
+    def __init__(self, cod_localidad, id_provincia, id_departamento, categoria, provincia,
+                 localidad, nombre, domicilio, codigo_postal, numero_de_telefono, mail, web):
         self.cod_localidad = cod_localidad
         self.id_provincia = id_provincia
         self.id_departamento = id_departamento
