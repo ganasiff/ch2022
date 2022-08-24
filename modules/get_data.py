@@ -4,7 +4,7 @@ from io import StringIO
 from modules.extract_csv_from_URL import extractURL
 
 
-def get_data_from_gob(url):
+def get_data_from_url(url):
     """This will get the data from the provided URL"""
     try:
         r = requests.get(url)

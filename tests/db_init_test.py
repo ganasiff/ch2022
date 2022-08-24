@@ -1,6 +1,6 @@
 from modules.log2file import log2file_tests
 from modules.models import CulturalMap
-from modules.db_orm_settings import Base, Session, engine
+from modules.db import Base, Session, engine
 from sqlalchemy.sql import exists
 import logging
 

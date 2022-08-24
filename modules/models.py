@@ -1,6 +1,6 @@
 from sqlalchemy import Column, String, Integer
 from sqlalchemy_utils import EmailType
-from db_orm_settings import Base
+from modules.db import Base
 from decouple import config
 
 TABLE_NAME = config('TABLE_NAME')
