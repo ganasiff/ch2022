@@ -35,9 +35,8 @@ def main():
                 download_and_save(url_data, 'biblioteca')
 
     generate_table('cultural_map')
-    
-    
-
+    generate_table('registry_totals')
+    generate_table('cinemas_capacity')
     return 0
 
 
