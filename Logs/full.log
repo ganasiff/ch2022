@@ -131,3 +131,73 @@ INFO:root:File on ./csv_files/Libraries/2022-agosto/bibliotecas-24-08-2022.csv S
 WARNING:root:Table Generation Failed:"None of ['index'] are in the columns"
 WARNING:root:Table Generation Failed:"None of ['index'] are in the columns"
 WARNING:root:Table Generation Failed:"None of ['index'] are in the columns"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): datos.gob.ar:443
+DEBUG:urllib3.connectionpool:https://datos.gob.ar:443 "GET /dataset/cultura-mapa-cultural-espacios-culturales/archivo/cultura_392ce1a8-ef11-4776-b280-6f1c7fae16ae HTTP/1.1" 200 10511
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): datos.cultura.gob.ar:443
+DEBUG:urllib3.connectionpool:https://datos.cultura.gob.ar:443 "GET /dataset/37305de4-3cce-4d4b-9d9a-fec3ca61d09f/resource/392ce1a8-ef11-4776-b280-6f1c7fae16ae/download/cine.csv HTTP/1.1" 200 None
+INFO:root:Request processed
+INFO:root:File on ./csv_files/Cinemas/2022-agosto/cines-24-08-2022.csv Saved at 2022-08-24 02:02:00.220051
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): datos.gob.ar:443
+DEBUG:urllib3.connectionpool:https://datos.gob.ar:443 "GET /dataset/cultura-mapa-cultural-espacios-culturales/archivo/cultura_4207def0-2ff7-41d5-9095-d42ae8207a5d HTTP/1.1" 200 10435
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): datos.cultura.gob.ar:443
+DEBUG:urllib3.connectionpool:https://datos.cultura.gob.ar:443 "GET /dataset/37305de4-3cce-4d4b-9d9a-fec3ca61d09f/resource/4207def0-2ff7-41d5-9095-d42ae8207a5d/download/museos_datosabiertos.csv HTTP/1.1" 200 304431
+INFO:root:Request processed
+INFO:root:File on ./csv_files/Museums/2022-agosto/museos-24-08-2022.csv Saved at 2022-08-24 02:02:04.239501
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): datos.gob.ar:443
+DEBUG:urllib3.connectionpool:https://datos.gob.ar:443 "GET /dataset/cultura-mapa-cultural-espacios-culturales/archivo/cultura_01c6c048-dbeb-44e0-8efa-6944f73715d7 HTTP/1.1" 200 10546
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): datos.cultura.gob.ar:443
+DEBUG:urllib3.connectionpool:https://datos.cultura.gob.ar:443 "GET /dataset/37305de4-3cce-4d4b-9d9a-fec3ca61d09f/resource/01c6c048-dbeb-44e0-8efa-6944f73715d7/download/biblioteca_popular.csv HTTP/1.1" 200 511527
+INFO:root:Request processed
+INFO:root:File on ./csv_files/Libraries/2022-agosto/bibliotecas-24-08-2022.csv Saved at 2022-08-24 02:02:07.946504
+WARNING:root:Table cultural_map Generation Failed:"None of ['index'] are in the columns"
+WARNING:root:Table cultural_map Generation Failed:"None of ['index'] are in the columns"
+WARNING:root:Table registry_totals Generation Failed:"None of ['index'] are in the columns"
+WARNING:root:Table cultural_map Generation Failed:"None of ['index'] are in the columns"
+WARNING:root:Table registry_totals Generation Failed:"None of ['index'] are in the columns"
+WARNING:root:Table cultural_map Generation Failed:"None of ['index'] are in the columns"
+WARNING:root:Table registry_totals Generation Failed:"None of ['index'] are in the columns"
+WARNING:root:Table cultural_map Generation Failed:"None of ['index'] are in the columns"
+WARNING:root:Table registry_totals Generation Failed:(psycopg2.errors.SyntaxError) syntax error at or near "registry_totals"
+LINE 1: registry_totals
+        ^
+
+[SQL: registry_totals]
+(Background on this error at: https://sqlalche.me/e/14/f405)
+WARNING:root:Table cultural_map Generation Failed:"None of ['index'] are in the columns"
+WARNING:root:Table registry_totals Generation Failed:(psycopg2.errors.SyntaxError) syntax error at or near "registry_totals"
+LINE 1: registry_totals
+        ^
+
+[SQL: registry_totals]
+(Background on this error at: https://sqlalche.me/e/14/f405)
+WARNING:root:Table cultural_map Generation Failed:"None of ['index'] are in the columns"
+WARNING:root:Table registry_totals Generation Failed:(psycopg2.errors.SyntaxError) syntax error at or near "registry_totals"
+LINE 1: registry_totals
+        ^
+
+[SQL: registry_totals]
+(Background on this error at: https://sqlalche.me/e/14/f405)
+WARNING:root:Table cinemas_capacity Generation Failed:"None of ['index'] are in the columns"
+INFO:root:Table cultural_map Generated/Updated Succesfully
+INFO:root:Table registry_totals Generated/Updated Succesfully
+INFO:root:Table cinemas_capacity Generated/Updated Succesfully
+WARNING:root:Table cultural_map Generation Failed:"None of ['index'] are in the columns"
+WARNING:root:Table registry_totals Generation Failed:"None of ['index'] are in the columns"
+WARNING:root:Table cinemas_capacity Generation Failed:"None of ['index'] are in the columns"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): datos.gob.ar:443
+DEBUG:urllib3.connectionpool:https://datos.gob.ar:443 "GET /dataset/cultura-mapa-cultural-espacios-culturales/archivo/cultura_392ce1a8-ef11-4776-b280-6f1c7fae16ae HTTP/1.1" 404 137336
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): datos.gob.ar:443
+DEBUG:urllib3.connectionpool:https://datos.gob.ar:443 "GET /dataset/cultura-mapa-cultural-espacios-culturales/archivo/cultura_4207def0-2ff7-41d5-9095-d42ae8207a5d HTTP/1.1" 200 10238
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): datos.cultura.gob.ar:443
+DEBUG:urllib3.connectionpool:https://datos.cultura.gob.ar:443 "GET /dataset/37305de4-3cce-4d4b-9d9a-fec3ca61d09f/resource/4207def0-2ff7-41d5-9095-d42ae8207a5d/download/museos_datosabiertos.csv HTTP/1.1" 200 None
+INFO:root:Request processed
+INFO:root:File on ./csv_files/Museums/2022-agosto/museos-28-08-2022.csv Saved at 2022-08-28 15:51:59.081519
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): datos.gob.ar:443
+DEBUG:urllib3.connectionpool:https://datos.gob.ar:443 "GET /dataset/cultura-mapa-cultural-espacios-culturales/archivo/cultura_01c6c048-dbeb-44e0-8efa-6944f73715d7 HTTP/1.1" 200 10352
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): datos.cultura.gob.ar:443
+DEBUG:urllib3.connectionpool:https://datos.cultura.gob.ar:443 "GET /dataset/37305de4-3cce-4d4b-9d9a-fec3ca61d09f/resource/01c6c048-dbeb-44e0-8efa-6944f73715d7/download/biblioteca_popular.csv HTTP/1.1" 200 511527
+INFO:root:Request processed
+INFO:root:File on ./csv_files/Libraries/2022-agosto/bibliotecas-28-08-2022.csv Saved at 2022-08-28 15:52:07.789495
+WARNING:root:Table cultural_map Generation Failed:"None of ['index'] are in the columns"
+WARNING:root:Table registry_totals Generation Failed:"None of ['index'] are in the columns"
+WARNING:root:Table cinemas_capacity Generation Failed:"None of ['index'] are in the columns"
